@@ -52,6 +52,7 @@ export const RegisterPage = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
+    console.log(displayName, email, password);
     setFormSubmitted(true);
 
     if (!isFormValid) return;
